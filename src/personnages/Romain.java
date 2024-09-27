@@ -31,4 +31,11 @@ public class Romain {
 		}
 		
 	}
+	
+	public static void main(String[] args) {
+		Romain fraude;
+		fraude = new Romain("Fraude",0);
+		fraude.parler("Ah gars, tu l'as dit !");
+		fraude.recevoirCoup(3);
+	}
 }
